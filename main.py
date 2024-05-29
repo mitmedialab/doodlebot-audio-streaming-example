@@ -12,7 +12,9 @@ region = "eastus"
 
 # Set up the Speech Config
 speech_config = speechsdk.SpeechConfig(
-    subscription=subscription_key, region=region)
+    subscription=subscription_key, region=region, )
+
+speech_config.speech_synthesis_voice_name = "en-US-AnaNeural"
 
 # Set up the audio output config to stream the audio:
 audio_output_stream = speechsdk.audio.PullAudioOutputStream()

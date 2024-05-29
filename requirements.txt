@@ -1,0 +1,4 @@
+azure-cognitiveservices-speech==1.37.0
+PyAudio==0.2.14
+python-dotenv==1.0.1
+Wave==0.0.2
